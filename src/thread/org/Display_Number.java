@@ -20,7 +20,7 @@ class MyThread extends Thread
 }
 public class Display_Number {
     public static void main(String args[])
-    {
+    { System.out.println("Thread Program");
          MyThread mt=new MyThread();
          mt.start();
     }
